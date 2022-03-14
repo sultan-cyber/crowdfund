@@ -53,6 +53,12 @@ a{
     border: 8px green solid;;
     border-radius: 50px;
 }
+.greeen{
+    background-color: rgb(14, 132, 161);
+    height: 25px;
+    border: 4px rgb(14, 132, 161)reen solid;;
+    border-radius: 50px;
+}
 .boook{
     color: rgb(245, 237, 237);
 }
@@ -81,4 +87,7 @@ p{
     border: 0.5px black solid;
     border-radius: 10px;
     margin-top: 20px;
+}
+footer{
+    
 }
