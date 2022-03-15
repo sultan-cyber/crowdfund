@@ -1,0 +1,212 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+    padding: 10px;
+}
+header{
+    background-image: url(/images/image-hero-mobile.jpg);
+    padding: 3vh 7vw;
+    height: 300px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.figure ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.figure ul li{
+    margin-bottom: 10px;
+}
+
+.top ul{
+    display: none;
+}
+.mainhead{
+    width: 250px;
+    align-items: center;
+    border: 1px solid white;
+    margin: -30px 30px 20px 30px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+#masterk{
+    margin: -30px 100px 20px 100px;
+}
+.opc{
+    display: flex;
+    justify-content: space-between;
+
+}
+.green{
+    background-color: green;
+    height: 30px;
+    border: 8px green solid;;
+    border-radius: 50px;
+}
+.greeen{
+    background-color: rgb(14, 132, 161);
+    height: 25px;
+    border: 4px rgb(14, 132, 161)reen solid;;
+    border-radius: 50px;
+}
+.boook{
+    color: rgb(245, 237, 237);
+}
+.book{
+    height: 25px;
+}
+p{
+    color: gray;
+}
+.figure{
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;   
+}
+#file{ 
+    margin-top: 20px;
+    width: 80%;
+    background-color: blue;
+    border-radius: 25px;
+    align-items: center;
+}
+.bamboo{
+    border: 0.5px black solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+body{
+    padding: 10px;
+}
+
+    .mainhead{
+        align-items: center;
+        border: 1px solid white;
+        margin: -30px 300px 20px 250px;
+        background-color: white;
+        border-radius: 25px;
+        text-align: center;
+    }
+    #masterk{
+        margin: -30px 100px 20px 100px;
+    }      
+}
+@media screen and (min-width:425px) {
+ 
+body{
+    padding: 10px;
+}
+
+    .mainhead{
+        align-items: center;
+        border: 1px solid white;
+        margin: -30px 100px 20px 100px;
+        background-color: white;
+        border-radius: 25px;
+        text-align: center;
+    }
+    #masterk{
+        margin: -30px 100px 20px 100px;
+    }
+    
+    
+}
+@media screen and (min-width: 1000px){
+ 
+body{
+    background-color: aliceblue;
+}
+header{
+    background-image:url(/images/image-hero-desktop.jpg);
+    height: 350px;
+    padding: 2vh 5vw;
+}
+.top{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    margin-right: 10px;
+}
+a{
+    color: white;
+}
+.mainhead{
+    align-items: center;
+    border: 1px solid white;
+    margin: -40px 400px 0px 400px;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+#masterk{
+    margin: -30px 150px 0px 150px;
+}
+.opc{
+    display: flex;
+    justify-content: space-around;
+}
+.green{
+    background-color: green;
+    height: 30px;
+    border: 8px green solid;;
+    border-radius: 50px;
+}
+.greeen{
+    background-color: rgb(14, 132, 161);
+    height: 25px;
+    border: 4px rgb(14, 132, 161)reen solid;;
+    border-radius: 50px;
+}
+.boook{
+    color: rgb(245, 237, 237);
+}
+.book{
+    height: 35px;
+}
+p{
+    color: gray;
+}
+.figure{
+    align-items: center;
+    border: 1px solid white;
+    margin: 20px 400px 0px 400px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;   
+}
+#file{ 
+    margin-top: 20px;
+    width: 80%;
+    background-color: blue;
+    border-radius: 25px;
+    align-items: center;
+}
+.bamboo{
+    border: 0.5px black solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+}

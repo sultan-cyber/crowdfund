@@ -15,7 +15,6 @@ header{
     background-image:url(/images/image-hero-desktop.jpg);
     height: 350px;
     padding: 2vh 5vw;
-
 }
 .top{ 
     display: flex;
@@ -45,12 +44,12 @@ a{
 }
 .opc{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .green{
     background-color: green;
     height: 30px;
-    border: 8px green solid;;
+    border: 8px green solid;
     border-radius: 50px;
 }
 .greeen{
@@ -87,7 +86,4 @@ p{
     border: 0.5px black solid;
     border-radius: 10px;
     margin-top: 20px;
-}
-footer{
-    
 }
